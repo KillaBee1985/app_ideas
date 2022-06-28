@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   template: `
     <app-appbar></app-appbar>
     <div>
-    Content:
     <router-outlet></router-outlet>
     </div>
   `
