@@ -1,9 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-ideas-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  selector: 'app-root',
+  template: `
+    <app-appbar></app-appbar>
+    <div>
+    Content:
+    <router-outlet></router-outlet>
+    </div>
+  `
 })
 export class AppComponent {
   title = 'console';
